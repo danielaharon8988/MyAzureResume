@@ -1,27 +1,19 @@
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('DOMContentLoaded', (event) =>{
     getVisitCount();
 })
 
-const functionAPI = "";
+const functionApiUrl = 'http://localhost:7071/api/GetResumeCounter';
 
 const getVisitCount = () => {
-    let count = 30; // Default count in case of error
-
-    fetch(functionAPI)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log("Function API called successfully");
-            count = data.count;
-            document.getElementById("counter").innerText = count;
-        })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-        });
-
-    return count; // This will return the default count immediately, not waiting for the fetch operation
+    let count = 30;
+    fetch(functionApiUrl).then(response => {
+        return response.json()
+    }).then(response =>{
+        console.log("Website called function API.");
+        count =  response.count;
+        document.getElementById("counter").innerText = count;
+    }).catch(function(error){
+        console.log(error);
+    });
+    return count;
 }
