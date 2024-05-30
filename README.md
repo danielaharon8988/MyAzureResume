@@ -42,14 +42,15 @@ I started by building a static resume website using HTML and CSS. I used a templ
 
 ![Static Resume Page](https://github.com/danielaharon8988/MyAzureResume/blob/main/frontend/readmeimages/%E2%80%AADaniel%20Aharon%20Resume%20-%20Google%20Chrome%E2%80%AC%205_30_2024%209_20_29%20PM.png?raw=true)
 
-## Phase-2 (Hosting the website in azure)
+### Phase-2 (Hosting the website in azure)
 <p>This phase is all about deploying the static site to the cloud. In Azure we can achieve this by deploying the static site to a blob storage. Azure Blob storage has an option to configure it to host static websites. Once configured you can find a container named as $web. Now you can upload the website files directly from the portal or the cli. I personally chose to do it through the cli. The image below shows you the uploaded files for the static site in the blob storage</p>
 
 <img src="https://github.com/danielaharon8988/MyAzureResume/blob/main/frontend/readmeimages/%E2%80%AA$web%20-%20Microsoft%20Azure%20-%20Google%20Chrome%E2%80%AC%205_30_2024%209_59_35%20PM.png?raw=true">
 And you can access the static website through the primary endpoint given by azure for this particular site. [You can find it in the capabilites section in the overview of the Blob account and click "Static website" and find the primary and secondary endpoints], later i connected the Domain I purchased to the Static website to generate a short and accessible url.
 
+## Back-end
 
-## Phase-3 (Domain and CDN)
+### Phase-3 (Domain and CDN)
 I bought a domain (on godaddy -  <a href="https://getresumecounterapp1.z13.web.core.windows.net"> resumedanielaharon.online</a>) for this project. 
 I could have used Azure DNS but my subscription credits wasnt able to actually get a domain name. Then I pointed this domain to the Azure CDN endpoint. CDN refers to content delivery network. It is a network of multiple proxy servers with a primary goal of delivering content with high availability. So users across different geographical locations can access it faster.
   
