@@ -1,299 +1,220 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en">
+
 <head>
-
-   <!--- Basic Page Needs
-   ===================================================== -->
    <meta charset="utf-8">
-	<title>Daniel Aharon Resume</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+   <title>Daniel Aharon | DevOps & IT Engineer</title>
+   <meta name="description" content="DevOps & IT Engineer specializing in automation, cloud, CI/CD and enterprise support.">
+   <meta name="author" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-   <!-- Mobile Specific Metas
-   ==================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
+   <!-- CSS -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/animation.css">
    <link rel="stylesheet" href="css/fonts.css">
-   <style>
-      .nav a {
-         font-weight: bold;
-      }
-   </style>
 
    <style>
-      .nav a {
-         font-weight: bold;
-      }
-      .more {
-         display: inline-block;
-         margin-top: 10px; /* Adjust this value to move the text down */
-      }
+      .nav a { font-weight: bold; }
+      .more { display: inline-block; margin-top: 10px; }
+      .tagline { font-size: 22px; margin-top: 10px; color: #A8A8A8; }
    </style>
 
-
-   <!-- Script
-   ================================================== -->
    <script src="modernizr.js"></script>
    <script src="main.js"></script>
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="resumephoto.jpg" >
-
+   <link rel="shortcut icon" href="resumephoto.jpg">
 </head>
 
 <body>
 
-   <!-- Header
-   ========================================================= -->
-   <header id="home" class="section-slide" >
+<header id="home" class="section-slide">
 
-      <nav id="nav-wrap">
+   <nav id="nav-wrap">
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+      <ul id="nav" class="nav">
+         <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+         <li><a class="smoothscroll" href="#about">About</a></li>
+         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+      </ul>
+   </nav>
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-         </ul> <!-- end #nav -->
+   <div class="row banner">
+      <div class="banner-text">
+         
+         <h1 class="responsive-headline">Hi, I'm Daniel Aharon</h1>
+         <h3 class="tagline">DevOps & IT Engineer | Cloud • Automation • CI/CD • Enterprise Support</h3>
 
-      </nav> <!-- end #nav-wrap -->
+         <p>This page has been viewed <a id="counter"></a> times. Enjoy your stay!</p>
 
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Hi, I'm Daniel Aharon </h1>
-            
-            <p>and this page has been viewed <a id="counter"></a> times! enjoy your stay :) </p> 
-            <ul class="social">
-               <li><a href="https://www.linkedin.com/in/daniel-aharon-027219299/" target="_blank"><img src="linkedin_photo.jpg" alt="LinkedIn" width="30" height="30"></a></li>
-               <li><a href="https://github.com/danielaharon8988" target="_blank"><img src="github_photo.jpg" alt="GitHub" width="30" height="30"></a></li>
-            </ul>
-                       
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-<!-- About Section
-   ================================================== -->
-   <section id="about" class="section-slide">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="https://github.com/danielaharon8988/MyAzureResume/blob/main/frontend/resumephoto.jpg?raw=true" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>ABOUT ME</h2>
-
-            <p>Hi, I'm Daniel! I'm a highly motivated individual with a strong interest in DevOps and a desire to contribute to a fast-paced, collaborative environment. I'm eager to learn and grow within a dynamic DevOps team, and I built this page as part of the Cloud Azure Resume Challenge.</p>
-
-
-         </div> <!-- end .main-col -->
+         <ul class="social">
+            <li><a href="https://www.linkedin.com/in/daniel-aharon-027219299/" target="_blank"><img src="linkedin_photo.jpg" width="30"></a></li>
+            <li><a href="https://github.com/danielaharon8988" target="_blank"><img src="github_photo.jpg" width="30"></a></li>
+         </ul>
 
       </div>
+   </div>
 
-   </section> <!-- About Section End-->
+   <p class="scrolldown">
+      <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+   </p>
 
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume" class="section-slide" >
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education" class="section-slide">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>DevOps Developer Expert at Sela College</h3>
-                  <p class="info">student of a comprehensive 688-hour training program in DevOps Engineering </p>
-                  <p>
-                  <li>Configured and monitored containerized workloads using Docker and Kubernetes to ensure scalability and reliability of applications</li>
-                  <li>Employed tools like Terraform and Ansible for infrastructure as code (IaC) to automate cloud resource management and configuration</li>
-                  <li>Developed automation scripts using Python and Bash</li>
-                  <li>Designed, implemented, and maintained automated CI/CD pipelines using Jenkins tools</li>
-                  <li>Excellent hands-on experience on Linux and Windows Server administration with Bash and PowerShell</li>
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>High School at Eitan</h3>
-                  <p>Full matriculation</p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
+</header>
 
 
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
+<!-- ABOUT SECTION -->
+<section id="about" class="section-slide">
 
-         <div class="three columns header-col">
-            <h1><span>Military Experience</span></h1>
-         </div>
+   <div class="row">
 
-         <div class="nine columns main-col">
+      <div class="three columns">
+         <img class="profile-pic" src="https://github.com/danielaharon8988/MyAzureResume/blob/main/frontend/resumephoto.jpg?raw=true" alt="" />
+      </div>
 
-            <div class="row item">
+      <div class="nine columns main-col">
 
-               <div class="twelve columns">
+         <h2>ABOUT ME</h2>
 
-                  <h3>Managed training camps and unit logistics services</h3>
-                  
-                  <p>
-                  <li>Ensured operational readiness and facilities maintenance</li>
-                  <li>Collaborated with high-ranking officials on logistics and resource allocation</li>
-                  <li>Managed budgets and optimized spending</li>
-                  <li>Fostered a team-oriented environment to achieve mission objectives</li>
-                  </p>
+         <p>
+            I'm Daniel — a DevOps & IT Engineer with hands-on experience supporting enterprise environments,
+            building CI/CD pipelines, and automating cloud infrastructure.  
+            I currently work in IT at <strong>Check Point Software Technologies</strong>, where I support
+            global users, manage enterprise systems, troubleshoot complex issues, and collaborate with R&D teams.
+         </p>
 
+         <p>
+            In parallel, I develop my DevOps skillset: containerization, infrastructure-as-code, cloud automation,
+            monitoring, and Linux/Windows administration. I love turning manual processes into efficient,
+            automated workflows that actually save time.
+         </p>
 
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-            <!--  Technical Skills & more 
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1>
-                <span>Technical Skills &</span> 
-                <span class="more">More</span>
-            </h1>
-        </div>
-        
-        
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Programming Skills</h3>
-
-                  <p>
-                  Git, Docker, AWS Cloud, Azure Cloud, Jenkins, Ansible, Python, 
-                     Kubernetes, Terraform, MySQL, Linux, Azure Devops
-                  </p>
-                  <h3>interests</h3>
-                  <p>
-                       Tennis , Traveling 
-                     </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://www.linkedin.com/in/daniel-aharon-027219299/" target="_blank"><img src="linkedin_photo.jpg" alt="LinkedIn" width="30" height="30"></a></li>
-               <li><a href="https://github.com/danielaharon8988" target="_blank"><img src="github_photo.jpg" alt="GitHub" width="30" height="30"></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <a href="https://www.styleshout.com/free-templates/ceevee/"> Template by CeeVee </a>
-                
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+         <p>
+            This site was built as part of the Azure Cloud Resume Challenge—continuously improved as I grow.
+         </p>
 
       </div>
 
-   </footer> <!-- Footer End-->
+   </div>
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+</section>
 
-   <script src="jquery.flexslider.js"></script>
-   <script src="waypoints.js"></script>
-   <script src="jquery.fittext.js"></script>
-   <script src="magnific-popup.js"></script>
-   <script src="init.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script>
-      $(document).ready(function(){
-         // Add smooth scrolling to all links
-         $("a").on('click', function(event) {
-   
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-               // Prevent default anchor click behavior
-               event.preventDefault();
-   
-               // Store hash
-               var hash = this.hash;
-   
-               // Using jQuery's animate() method to add smooth page scroll
-               // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-               $('html, body').animate({
-                  scrollTop: $(hash).offset().top
-               }, 800, function(){
-   
-                  // Add hash (#) to URL when done scrolling (default click behavior)
-                  window.location.hash = hash;
-               });
-            } // End if
-         });
-      });
-   </script>
-   
+
+<!-- RESUME SECTION -->
+<section id="resume" class="section-slide">
+
+   <!-- EDUCATION -->
+   <div class="row education">
+
+      <div class="three columns header-col">
+         <h1><span>Education</span></h1>
+      </div>
+
+      <div class="nine columns main-col">
+
+         <div class="row item">
+            <div class="twelve columns">
+               <h3>DevOps Developer Expert — Sela College</h3>
+               <p class="info">688-Hour Professional Program</p>
+
+               <ul>
+                  <li>Building CI/CD pipelines (Jenkins, GitLab CI)</li>
+                  <li>Containerization with Docker & Kubernetes</li>
+                  <li>Infrastructure as Code using Terraform & Ansible</li>
+                  <li>Automation with Python, Bash & PowerShell</li>
+                  <li>Strong Linux + Windows Server administration</li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="row item">
+            <div class="twelve columns">
+               <h3>Eitan High School</h3>
+               <p>Full matriculation</p>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+   <!-- MILITARY EXPERIENCE -->
+   <div class="row work">
+
+      <div class="three columns header-col">
+         <h1><span>Military Experience</span></h1>
+      </div>
+
+      <div class="nine columns main-col">
+
+         <div class="row item">
+            <div class="twelve columns">
+               <h3>Training & Logistics Manager</h3>
+               <ul>
+                  <li>Managed logistics operations for large military units</li>
+                  <li>Worked closely with senior commanders</li>
+                  <li>Oversaw budgeting and operational readiness</li>
+                  <li>Led teams and optimized day-to-day processes</li>
+               </ul>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+   <!-- SKILLS -->
+   <div class="row work">
+
+      <div class="three columns header-col">
+         <h1><span>Skills</span></h1>
+      </div>
+
+      <div class="nine columns main-col">
+
+         <div class="row item">
+            <div class="twelve columns">
+
+               <h3>Technical Skills</h3>
+               <p>
+                  <strong>DevOps:</strong> CI/CD, Jenkins, GitHub Actions, GitLab CI, Docker, Kubernetes, Helm<br>
+                  <strong>Cloud:</strong> Azure, AWS (ECS, Lambda), Terraform, IaC<br>
+                  <strong>Programming:</strong> Python, Bash, PowerShell<br>
+                  <strong>IT & Enterprise:</strong> Windows/Mac/Linux Administration, Intune, AD, SSO, Networking
+               </p>
+
+               <h3>Personal Interests</h3>
+               <p>Tennis, Traveling, Automation & scripting projects</p>
+
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+</section>
+
+
+<footer>
+   <div class="row">
+
+      <div class="twelve columns">
+         <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/daniel-aharon-027219299/" target="_blank"><img src="linkedin_photo.jpg" width="30"></a></li>
+            <li><a href="https://github.com/danielaharon8988" target="_blank"><img src="github_photo.jpg" width="30"></a></li>
+         </ul>
+
+         <ul class="copyright">
+            <a href="https://www.styleshout.com/free-templates/ceevee/">Template by CeeVee</a>
+         </ul>
+      </div>
+
+      <div id="go-top"><a class="smoothscroll" href="#home"><i class="icon-up-open"></i></a></div>
+
+   </div>
+</footer>
+
 </body>
-
 </html>
